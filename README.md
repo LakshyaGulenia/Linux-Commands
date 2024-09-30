@@ -34,6 +34,9 @@ Linux is an operating system, and Linus works on its kernel. The kernel is the h
 - **rm (filename)**  
   Used to delete a file.
 
+- **rm -rf(directoryname)**  
+  Used to delete a directory.
+
 - **man (command name)**  
   Used to get the help manual for a command.
 
