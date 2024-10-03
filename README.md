@@ -31,6 +31,9 @@ Linux is an operating system, and Linus works on its kernel. The kernel is the h
 
 ## Basic Linux Commands
 
+- **sudo usermod -aG docker $USER**  
+  Used to give permission 
+  
 - **rm (filename)**  
   Used to delete a file.
 
