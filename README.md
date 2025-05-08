@@ -110,3 +110,32 @@ fi
 ./(file_name)
 ```
 If you pass "Like" as an argument, it will print "hey". Otherwise, it will print "okay".
+
+# Linux Commands for DevOps Intern Interview at CloudAstra Technologies
+
+Essential Linux commands for a DevOps Intern interview at CloudAstra Technologies, Noida. Tailored for freshers with no real-world experience, focusing on cloud and web app tasks.
+
+## File and Directory Management
+1. **ls** - `ls -l` (list files, detailed).
+2. **cd** - `cd /var/log` (change directory).
+3. **pwd** - `pwd` (show current directory).
+4. **cp** - `cp app.conf app.conf.bak` (copy file).
+5. **mv** - `mv app.conf /etc/app/` (move/rename).
+6. **rm** - `rm -r temp/` (delete file/directory).
+
+## System Monitoring
+7. **top** - `top` (real-time process monitoring).
+8. **ps** - `ps aux` (list processes).
+9. **free** - `free -m` (memory usage).
+10. **kill** - `kill 1234` (terminate process).
+
+## Networking
+11. **ping** - `ping google.com` (check connectivity).
+12. **ip addr** - `ip addr` (show network config).
+
+## File Content
+13. **cat** - `cat app.log` (view file).
+14. **grep** - `grep "error" app.log` (search text).
+
+## Permissions
+15. **chmod** - `chmod 644 app.conf` (change permissions).
