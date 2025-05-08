@@ -24,7 +24,7 @@ Linux is an operating system, and Linus works on its kernel. The kernel is the h
   Moves one directory back (to the parent directory).
 
 - **mv ../filename .**  
-  The first `..` refers to the source directory, and the second `.` refers to the current directory. This command is used to move files.
+  The first `..` refers to the source directory, and the second `.` refers to the current directory. This command is used to move files and rename file.
 
 
 # Additional Linux Commands & Shell Scripting
