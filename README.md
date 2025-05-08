@@ -143,3 +143,35 @@ Essential Linux commands for a DevOps Intern interview at CloudAstra Technologie
 15. **chmod** - `chmod 644 app.conf` (change file permissions.777 = read/write/execute for all).
 18. **su - username** - `su - username` (switch between users in linux).
 
+# Linux Directory Structure: Where Files Are Stored
+
+## Core System Directories
+| Directory      | Purpose                                                                 | Key Contents Example                     |
+|----------------|-------------------------------------------------------------------------|------------------------------------------|
+| `/`            | Root directory (base of filesystem)                                     | All other directories branch from here   |
+| `/bin`         | Essential user command binaries                                         | `ls`, `cp`, `bash`                       |
+| `/etc`         | System-wide configuration files                                         | `passwd`, `nginx.conf`, `hosts`          |
+| `/home`        | User personal directories (one subdir per user)                         | `/home/username/Downloads`, `.bashrc`    |
+| `/var`         | Variable data (logs, caches, etc.)                                      | `/var/log`, `/var/cache`                 |
+| `/tmp`         | Temporary files (cleared on reboot)                                     | Runtime temp files                       |
+
+## Special-Purpose Directories
+| Directory      | Purpose                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| `/root`        | Home directory for root user (not to be confused with `/`)              |
+| `/opt`         | Optional/third-party software                                           |
+| `/usr`         | Read-only user utilities and apps (`/usr/bin`, `/usr/lib`, etc.)        |
+| `/dev`         | Device files (disks, terminals, etc.)                                   |
+| `/proc`        | Virtual filesystem for process/kernel info                              |
+| `/mnt`         | Temporary mount points for external filesystems                         |
+
+## User Data Locations
+- **Personal Files**: `/home/username/` (e.g., `/home/alice/Documents`)
+- **System Configs**: `/etc/`
+- **Logs**: `/var/log/` (e.g., `/var/log/nginx/error.log`)
+- **Installed Programs**:  
+  - System-wide: `/usr/bin/`  
+  - User-space: `~/.local/bin/` (hidden directory in home)
+
+> 💡 **Note**: Use `ls -l /` to see top-level directories. Hidden files (starting with `.`) are in home directories (e.g., `~/.ssh/`).
+
