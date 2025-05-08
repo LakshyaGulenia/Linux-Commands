@@ -128,6 +128,7 @@ Essential Linux commands for a DevOps Intern interview at CloudAstra Technologie
 8. **ps** - `ps aux` (list processes).
 9. **free** - `free -m` (memory usage).
 10. **kill** - `kill 1234` (terminate process).
+16. **df** - `df -h` (used to check disc space -h is for for readability).
 
 ## Networking
 11. **ping** - `ping google.com` (check connectivity).
@@ -138,4 +139,4 @@ Essential Linux commands for a DevOps Intern interview at CloudAstra Technologie
 14. **grep** - `grep "error" app.log` (search text).
 
 ## Permissions
-15. **chmod** - `chmod 644 app.conf` (change permissions).
+15. **chmod** - `chmod 644 app.conf` (change file permissions.777 = read/write/execute for all).
