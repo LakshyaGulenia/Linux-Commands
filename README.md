@@ -117,7 +117,7 @@ Essential Linux commands for a DevOps Intern interview at CloudAstra Technologie
 
 ## File and Directory Management
 1. **ls** - `ls -l` (list files, detailed).
-1. **ls -a** - `ls -l` (list hidden files,detail).
+17. **ls -a** - `ls -l` (list hidden files,detail).
 2. **cd** - `cd /var/log` (change directory).
 3. **pwd** - `pwd` (show current directory).
 4. **cp** - `cp app.conf app.conf.bak` (copy file).
@@ -141,3 +141,5 @@ Essential Linux commands for a DevOps Intern interview at CloudAstra Technologie
 
 ## Permissions
 15. **chmod** - `chmod 644 app.conf` (change file permissions.777 = read/write/execute for all).
+18. **su - username** - `su - username` (switch between users in linux).
+
